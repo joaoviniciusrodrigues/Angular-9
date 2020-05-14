@@ -1,0 +1,17 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+    
+    height: 0.75cm;
+
+    background-color: azure;
+}
+
+.footer span{
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+}
