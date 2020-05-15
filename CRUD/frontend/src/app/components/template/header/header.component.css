@@ -23,11 +23,30 @@
 
 .header .notification{    
     padding-left: 600px;
+    padding-right: 200px;
     cursor: pointer;    
 }
 
 .header .user{    
-    padding-left: 50px;
-    border-radius: 50%;
+    border-radius: 50%;    
 }
+
+.header .usertext{
+    display: flex;
+    flex-direction: column;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header .name-user{  
+    font-size: 13px; 
+    padding-top: 30px;     
+}
+
+.header .ultimo-acesso{
+    font-size: 10px;
+        
+}
+
+
 
