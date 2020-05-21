@@ -11,41 +11,56 @@
 }
 
 .header .logo{
-    max-height: 35px;
-    padding-right: 60px;
+    max-height: 35px; 
 }
 
-.header .title-group{
-    padding-right: 5px;
-    padding-left: 25px;
-    cursor: pointer;    
+.header .title-group{    
+    padding-left: 7%;    
+    cursor: pointer;
+    
 }
 
 .header .notification{    
-    padding-left: 600px;
-    padding-right: 200px;
+    padding-left: 50%;    
     cursor: pointer;    
 }
 
-.header .user{    
-    border-radius: 50%;    
+.header div{          
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
 }
 
-.header .usertext{
+.header .div-img-user{    
+   place-content: stretch;
+   align-items: stretch;
+   display: flex;
+   flex-direction: row;
+   box-sizing: border-box;
+   padding-right: 5px;
+}
+
+.header .img-user{       
+    max-height: 40px;
+    max-width: 40px;
+    border-radius: 50%;   
+ }
+
+.header .text-user{
     display: flex;
-    flex-direction: column;    
-    padding-top: 50px;
-    padding-bottom: 50px;
+    flex-direction: column; 
+    box-sizing: border-box;       
+    place-content: flex-start center;
+    align-items: flex-start;
 }
 
 .header .name-user{  
-    font-size: 13px; 
-    padding-top: 30px;     
+    font-size: 12px;
+    max-height: 5px;        
 }
 
 .header .ultimo-acesso{
-    font-size: 10px;
-        
+    font-size: 10px;    
 }
 
 
