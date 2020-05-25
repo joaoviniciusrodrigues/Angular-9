@@ -1,0 +1,23 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 20px 15px 0px 0px;
+}
+
+.fundo {
+    background-color: rgb(255, 255, 255);
+}
+
+.fundo .title {
+    color: rgb(111, 111, 111);
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+form input {
+    color: rgb(111, 111, 111);
+}

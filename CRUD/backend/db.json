@@ -1,9 +1,44 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "produto1",
-            "price": 10.00
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "produto1",
+      "price": 10
+    },
+    {
+      "name": "produto1",
+      "price": 10,
+      "id": 2
+    },
+    {
+      "name": "Teste1",
+      "price": 10,
+      "id": 3
+    },
+    {
+      "name": "Teste1",
+      "price": 10,
+      "id": 4
+    },
+    {
+      "name": "Teste1",
+      "price": 10,
+      "id": 5
+    },
+    {
+      "name": "Teste1",
+      "price": 10,
+      "id": 6
+    },
+    {
+      "name": "teafadsf",
+      "price": "10",
+      "id": 7
+    },
+    {
+      "name": "fasfsa",
+      "price": "12132456",
+      "id": 8
+    }
+  ]
 }

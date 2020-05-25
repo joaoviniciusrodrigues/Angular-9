@@ -1,67 +1,63 @@
-.header{
+.header {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(-50deg, rgb(203,2,70), rgb(243,71,92));
+    background-image: linear-gradient(-50deg, rgb(203, 2, 70), rgb(243, 71, 92));
 }
 
-.header a{
+.header a {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 
-.header .logo{
-    max-height: 35px; 
+.header .logo {
+    max-height: 35px;
 }
 
-.header .title-group{    
-    padding-left: 7%;    
+.header .title-group {
+    padding-left: 7%;
     cursor: pointer;
-    
 }
 
-.header .notification{    
-    padding-left: 50%;    
-    cursor: pointer;    
+.header .notification {
+    padding-left: 50%;
+    cursor: pointer;
 }
 
-.header div{          
+.header div {
     padding-left: 5%;
     display: flex;
     align-items: center;
 }
 
-.header .div-img-user{    
-   place-content: stretch;
-   align-items: stretch;
-   display: flex;
-   flex-direction: row;
-   box-sizing: border-box;
-   padding-right: 5px;
+.header .div-img-user {
+    place-content: stretch;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-right: 5px;
 }
 
-.header .img-user{       
+.header .img-user {
     max-height: 40px;
     max-width: 40px;
-    border-radius: 50%;   
- }
+    border-radius: 50%;
+}
 
-.header .text-user{
+.header .text-user {
     display: flex;
-    flex-direction: column; 
-    box-sizing: border-box;       
+    flex-direction: column;
+    box-sizing: border-box;
     place-content: flex-start center;
     align-items: flex-start;
 }
 
-.header .name-user{  
+.header .name-user {
     font-size: 12px;
-    max-height: 5px;        
+    max-height: 5px;
 }
 
-.header .ultimo-acesso{
-    font-size: 10px;    
+.header .ultimo-acesso {
+    font-size: 10px;
 }
-
-
-
