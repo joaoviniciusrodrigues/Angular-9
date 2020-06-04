@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+}
+
+.edit {
+    margin-right: 5px;
+}
+
+.edit i {
+    color: #d9cd26;
+}
+
+.delete i {
+    color: #e35e6b;
+}
+
+.mat-column-id {
+    width: 20%;
+}
+
+.mat-column-name {
+    width: 50%;
+}

@@ -21,6 +21,10 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ProductReadComponent } from './components/products/product-read/product-read.component';
+import { MatTableModule } from '@angular/material/table';
+import { ProductUpdateComponent } from './components/products/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/products/product-delete/product-delete.component';
 
 
 
@@ -34,6 +38,9 @@ import { MatInputModule } from '@angular/material/input';
     ProductCrudComponent,
     RedDirective,
     ProductCreateComponent,
+    ProductReadComponent,
+    ProductUpdateComponent,
+    ProductDeleteComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,7 +55,8 @@ import { MatInputModule } from '@angular/material/input';
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,35 +1,24 @@
-.sidenav{
-    background-color: rgb(245, 245, 245) ;
-    width: 250px;
+.sidenav {
+    background-color: "primary";
+    width: 276px;
+    background-color: rgb(63, 81, 181);
 }
 
-.sidenav a{
-    color: rgb(111, 111, 111);
+.sidenav a {
+    color: rgb(235, 235, 235);
     padding-top: 0.15cm;
     padding-bottom: 0.15cm;
 }
 
-
-.sidenav a:hover{
-    color: rgb(111, 111, 111);
-    background-color: rgb(235, 235, 235);
+.sidenav a:hover {
+    color: white;
 }
 
-.content{
+.content {
     padding: 16px;
     background-color: rgb(255, 255, 255);
 }
 
-
-.sidenav i{    
-    padding-right: 10px;
-    
+.sidenav i {
+    padding-right: 25px;
 }
-
-.sidenav i:selection{    
-    color: rgb(1, 111, 111);    
-}
-
-
-
-
